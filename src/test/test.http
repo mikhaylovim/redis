@@ -1,0 +1,11 @@
+### Добавление нового элемента
+POST http://localhost:8080/api/items
+Content-Type: application/json
+
+{
+  "id": "1",
+  "value": "SampleItem"
+}
+
+### Получение элемента по ID
+GET http://localhost:8080/api/items/1
