@@ -20,6 +20,7 @@ config get databases
 info
 ```
 
+src/test/test.http
 
 # STOP
 ```shell
